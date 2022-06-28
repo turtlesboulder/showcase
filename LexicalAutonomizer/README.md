@@ -1,0 +1,5 @@
+# LexicalAutonomizer
+
+The purpose of this program was to create random pronounceable words using only a subset of every single IPA (International Phonetic Alphabet) sound that I can pronounce. Therefore each set of words it generates has a distinct 'flavor' as they only use about half of the available sounds. Some of the sounds are also used much more often than other ones. I also wanted the words to all have a similar feel to each other, so I intentionally made all of them vowel-heavy. 
+
+This was created a long time ago, When I was about 18 I believe. There are a few silly things about the program, like how I only intended to make one instance of the *lexicon* class so all the variables in it are static. Regardless, it still fulfilled the purpose I wanted it to, and after reviewing the list of words to see if I liked them, I would name the "language" the first word in the list and move the file away.
