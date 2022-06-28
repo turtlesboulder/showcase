@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hacker Valley Chamber Join Page. Join a community!">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/chamber_home.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/join.css">
+    <script src="js/chamber_home.js" defer></script>
+    <script src="js/join_date.js" defer></script>
+    <title>Join Hacker Valley</title>
+</head>
+<body>
+    <header>
+        <div id="notification_banner" class="banner_no_show">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+        <button id="hamburger_button">&#9776;</button>
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="directory.html">
+                        Directory
+                    </a>
+                </li>
+                <li>
+                    <a href="discover.html">
+                        Discover
+                    </a>
+                </li>
+                <li>
+                    <a href="join.html">
+                        Join
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <div id="social_media_images">
+                <a href="https://www.facebook.com/">
+                    <img alt="Facebook" src="images/facebook.png">
+                </a>
+                <a href="https://twitter.com/">
+                    <img alt="Twitter" src="images/twitter.png">
+                </a>
+                
+            </div>
+        </nav>
+        <a href="chamber.html">
+            <img class="logo" src="images/logo2.webp" alt="Hacker Valley Chamber Logo">
+        </a>
+        <h1 id="title">
+            Hacker Valley Chamber
+        </h1>
+        <p id="current_date_header">
+            You shouldn't see this text!
+        </p>
+    </header>
+    <h1 id="join_prompt">Join the Hacker Valley Chamber!</h1>
+    <main id="join_main_flex">
+        <form action="thankyou.html" method="GET" autocomplete="on">
+            <div class="formElement">
+                <label for="fname">First Name *</label>
+                <input type="text" id="fname" name="first_name" required>
+            </div>
+            
+            <div class="formElement">
+                <label for="lname">Last Name *</label>
+                <input type="text" id="lname" name="first_name" required>
+            </div>
+            
+            <div class="formElement">
+                <label for="buisinessTitle">Buisiness Title *</label>
+                <input type="text" id="buisinessTitle" name="buisinessTitle" pattern="[- A-Za-z]+" minlength="7" required>
+            </div>
+            
+            <div class="formElement">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="1234@example.com" required>
+            </div>
+            
+            <div class="formElement">
+                <label for="phoneNumber">Phone Number *</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            </div>
+            
+            <div class="formElement">
+                <label for="buisinessName">Buisiness Name *</label>
+                <input type="text" id="buisinessName" name="buisinessName" required>
+            </div>
+            
+            <fieldset>
+                <legend>Membership Level</legend>
+                <div>
+                    <input type="radio" id="NP" name="membershipLevel" value="NP">
+                    <label for="NP">NP</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="Broze" name="membershipLevel" value="Bronze">
+                    <label for="Broze">Bronze</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="Silver" name="membershipLevel" value="Silver">
+                    <label for="Silver">Silver</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="Gold" name="membershipLevel" value="Gold">
+                    <label for="Gold">Gold</label>
+                </div>
+            </fieldset>
+    
+            <div class="formElement">
+                <label for="buisinessDescription">Buisiness Description</label>
+                <textarea id="buisinessDescription" name="buisinessDescription"></textarea>
+            </div>
+            
+    
+            <input type="hidden" id="currentDate" name="currentDate">
+    
+            <button type="submit">Submit Form</button>|
+            
+        </form>
+        <div>
+            <h2>Membership Level Details</h2>
+    
+            <h3>NP Membership</h3>
+            <ul>
+                <li>For non profit organizations and there is no fee</li>
+            </ul>
+            <h3>Bronze Membership</h3>
+            <ul>
+                <li>15% Discounton events</li>
+                <li>10% Discount on advertising</li>
+                <li>Fee of $50 a month</li>
+            </ul>
+            <h3>Silver Membership</h3>
+            <ul>
+                <li>25% discount on events</li>
+                <li>15% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>Fee of $100/month</li>
+            </ul>
+            <h3>Gold Membership</h3>
+            <ul>
+                <li>50% discount on events</li>
+                <li>50% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>5 free featured ads per year</li>
+                <li>1 free training per quarter</li>
+                <li>Fee of $250/month</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <img class="logo" src="images/logo2.webp" alt="Hacker Valley Chamber Logo">
+        <h2 id="footer_name">Hacker Valley Chamber</h2>
+        <ul>
+            <li>
+                123@example.com
+            </li>
+            <li>
+                (555) 123-4567
+            </li>
+            <li>
+                <a href="https://www.churchofjesuschrist.org/?lang=eng">
+                    Map link
+                </a>
+            </li>
+            <li class="visited"></li>
+        </ul>
+        <p id="footer_text">
+            <!--This will be filled with javascript.-->
+        </p>
+    </footer>
+  
+</body>
+</html>

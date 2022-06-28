@@ -1,0 +1,50 @@
+form input{
+    display: block;
+    padding: 3px;
+}   
+#join_prompt{
+    text-align: center;
+    margin: 30px;
+}
+.formElement{
+    padding: 10px;
+}
+form fieldset input{
+    display: inline;
+}
+
+form input:required{
+    border-left: red solid 6px;
+}
+
+form input:required:valid{
+    border-left: green solid 6px;
+}
+
+#buisinessDescription{
+    word-wrap: normal;
+    width: 100%;
+}
+
+#join_main_flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    vertical-align: center;
+    gap: 20px;
+}
+main{
+    margin: 20px;
+    margin-bottom: 40px;
+}
+#thank_you_title{
+    text-align: center;
+    font-size: 4em;
+    margin: 100px 50px;
+}
+textarea{
+    height: 5em;
+    padding: 5px;
+    font-family: inherit;
+}

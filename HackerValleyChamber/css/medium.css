@@ -1,0 +1,101 @@
+@media screen and (min-width: 851px){
+    #nav{
+        display: none;
+    }
+    #main_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    /* NOT DONE YET! */
+    #hero{
+        grid-row: 1;
+        grid-column: 1/7;
+    }
+    #main_grid .main_node{
+        height: 200px;
+    }
+    #event{
+        grid-row: 5;
+        grid-column: 1/5;
+    }
+    #weather{
+        grid-row: 5;
+        grid-column: 5/7;
+    }
+    #weather img{
+        padding-top: 20px;
+    }
+    #newsRelease{
+        grid-row: 2;
+        grid-column: 1/7;
+    }
+    #spotlights{
+        display: flex;  
+        grid-row: 3;
+        grid-column: 1/7;
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+
+    #spotlights .spotlight_node{
+        height: auto;
+    }
+    #spotlights #spotlight3{
+        display: none;
+    }
+    #join{
+        grid-row: 4;
+        grid-column: 1/7;
+    }
+
+    /* HEADER */
+    #nav.hamburger_show{
+        display: block;
+        background-color: var(--darkOrange2);
+        position: absolute;
+        top: 140px;
+        right: 40px;
+        border: 3px solid black;
+        z-index: 10;
+    }
+    #nav.hamburger_show ul{
+        padding: 10px;
+        margin: 0px;
+    }
+    #nav.hamburger_show ul li{
+        margin: 10px 0px;
+        border: 1px solid black;
+        padding: 5px;
+        width: 10rem;
+    }
+    #nav.hamburger_show ul li a{
+        text-decoration: none;
+    }
+    #nav.hamburger_show ul li:hover{
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    #nav a{
+        color: white;
+    }
+    #nav a:hover{
+        color: white;   
+    }
+    #footer_name{
+        font-size: 2.5rem;
+    }
+    #footer_text{
+        padding-bottom: 15px;
+    }
+    footer ul{
+        margin-top: 30px;
+    }
+
+    article img:hover{
+        border: 2px solid black;
+    }
+
+    #directory_table{
+        display: table;
+    }
+}

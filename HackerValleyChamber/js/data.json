@@ -1,0 +1,100 @@
+{
+    "buisinesses":[
+        {
+            "name": "Chief Zhu Dumplings",
+            "address": "1149 Incident Way, WV 26222",
+            "phone": "247-988-6248",
+            "website": "ChiefZhuDumplings.com",
+            "logo": "noodles.png",
+            "description": "The best dumpling soup in the city!"
+        },
+        {
+            "name": "MODERN Lithium",
+            "address": "2121 Shark Beard Avenue, WV 26222",
+            "phone": "312-640-1519",
+            "website": "ModernLithium.com",
+            "logo": "aluminium.png",
+            "description": "Shop only the highest quality metals at MODERN Lithium."
+        },
+        {
+            "name": "Big Man's Toolchest",
+            "address": "6467 Transaction Church Road, WV 26222",
+            "phone": "888-598-8649",
+            "website": "bigmantoolchest.com",
+            "logo": "chest.png",
+            "description": "The toolchest every man needs."
+        },
+        {
+            "name": "Better Residences and Conservatories",
+            "address": "1085 Executive Street, WV 26222",
+            "phone": "752-393-1804",
+            "website": "HRConservatories.com",
+            "logo": "betterresidences.webp",
+            "description": "Create a happier home and conservatory environment."
+        },
+        {
+            "name": "Faqugawats & Faqugawats Law",
+            "address": "2919 Book Lane, WV 26222",
+            "phone": "580-108-8080",
+            "website": "FQW2Law.com",
+            "logo": "FQW&FQW.webp",
+            "description": "Big rig get in your way? Get them off the road now!"
+        },
+        {
+            "name": "Pleasant View Building",
+            "address": "2475 Incident Way, WV 26222",
+            "phone": "156-302-8998",
+            "website": "pleasentviewbuilding.com",
+            "logo": "pleasantview.webp",
+            "description": "Have us build your most pleasant looking buildings."
+        },
+        {
+            "name": "High Mountain Timber",
+            "address": "4640 Dark Justice Road, WV 26222",
+            "phone": "293-378-6426",
+            "website": "goodmountaintimber.com",
+            "logo": "timber.webp",
+            "description": "We sustainably source inexpensive timber."
+        },
+        {
+            "name": "Everybody's Wholesale Supply",
+            "address": "5846 Slap Coverage Lane, WV 26222",
+            "phone": "397-903-6839",
+            "website": "FamilygaragesaleWV.com",
+            "logo": "gearhammer.webp",
+            "description": "Why get your own pawn shop? Sell it to us instead!"
+        },
+        {
+            "name": "Healthy Helping Hands",
+            "address": "3006 Sock Road, WV 26222",
+            "phone": "847-365-3747",
+            "website": "helpinghandsvets.com",
+            "logo": "hands.webp",
+            "description": "Have us keep your livestock healthy!"
+        },
+        {
+            "name": "Tulego",
+            "address": "2835 Virtue Way, WV 26222",
+            "phone": "274-521-2295",
+            "website": "tulego.com",
+            "logo": "headcrecent.webp",
+            "description": "We buy and sell property."
+        },
+        {
+            "name": "Hacker Valley Bank",
+            "address": "6662 Idea Coat Boulevard, WV 26222",
+            "phone": "801-738-8971",
+            "website": "hackervalleybank.com",
+            "logo": "bank.webp",
+            "description": "We host the best transactions!"
+        },
+        {
+            "name": "Lab Rats",
+            "address": "4930 Galaxy Street, WV 26222",
+            "phone": "652-362-4865",
+            "website": "labrats.com",
+            "logo": "labrats.webp",
+            "description": "Get your home moved by smart movers."
+        }
+    ]
+}
