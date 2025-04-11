@@ -1,0 +1,111 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+canvas{
+    background-color: grey;
+}
+#side-panel{
+    height: 100vh;
+    background-color: #d0c8c0;
+    border: 5px solid #807060;
+    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+#next-list-box{
+    height: 25vh;
+    border-top: 5px solid #807060;
+}
+#equipment-list, #magic-list{
+    border-top: 1px solid #807060;
+    padding-top: 8px;
+}
+#action-panel{
+    padding: 10px;
+    margin: 0px;
+    height: 67vh;
+    border-top: 5px solid #807060;
+}
+ul li{
+    background-color: #c0b8b0;
+    border-bottom: 2px solid #b0a8a0;
+    border-top: 2px solid #e0d8d0;
+    padding: 4px;
+    margin: 1px;
+    font-size: 14px;
+}
+ul li.selectable:hover{
+    border-top: 2px solid #b8b0a8;
+    background-color:#b8b0a8;
+    cursor:pointer;
+}
+ul li.selectable.selected:hover{
+    border:2px solid grey;
+}
+ul li.unavailable{
+    background-color: #a09890;
+}
+#next-list-box{
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+h4{
+    margin-block-start: 0.4em;
+    margin-block-end: 0;
+}
+#info-panel{
+    padding: 10px;
+    height: 8vh;
+    border: 3px solid #c0b8b0;;
+}
+html body#body.main .hidden{
+    display:none;
+}
+.selected{
+    border:2px solid grey;
+}
+#start{
+    background-color: #c0b8b0;
+    border-bottom: 2px solid #b0a8a0;
+    border-top: 2px solid #e0d8d0;
+    padding: 4px;
+    margin: 1px;
+    width: 20vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+#start:hover{
+    border:2px solid grey;
+    background-color: #b8b0a8;
+}
+
+#menu{
+    background-color: #646464;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#info-panel.blink{
+    border: 3px solid #646464;
+}

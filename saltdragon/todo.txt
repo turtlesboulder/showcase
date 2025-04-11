@@ -1,0 +1,16 @@
+
+
+Rethink the side panel. Mabey have three item slots, but the weapons are separate? I should also make it obvious how much space there is
+
+make stats a list?
+
+
+Add mobile support; Drag controls for the map and move the side panel to the top
+
+
+Add hp, mp, and block bars
+
+make it so that damage message doesn't pause the game and is only visible during the attack animation
+
+there are a lot of timers. Mabey move them to a separate class and return a boolean on that's step function?
+
