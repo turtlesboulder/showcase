@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ballistic Trajectory Visualizer</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="canvas-container">
+      <canvas id="simulationCanvas"></canvas>
+    </div>
+
+    <aside class="sidebar">
+      <h1>Trajectory Sim</h1>
+
+      <div class="control-group">
+        <label>
+          Velocity (m/s)
+          <span id="val-velocity" class="value-display">50</span>
+        </label>
+        <input type="range" id="velocity" min="1" max="2000" value="50" step="1">
+      </div>
+
+      <div class="control-group">
+        <label>
+          Angle (deg)
+          <span id="val-angle" class="value-display">45</span>
+        </label>
+        <input type="range" id="angle" min="0" max="90" value="45" step="1">
+      </div>
+
+      <div class="control-group">
+        <label>
+          Mass (kg)
+          <span id="val-mass" class="value-display">1.0</span>
+        </label>
+        <input type="range" id="mass" min="0.1" max="1000" value="1.0" step="0.1">
+      </div>
+
+      <div class="control-group">
+        <label>
+          Gravity (m/s²)
+          <input type="number" id="gravity" value="9.81" step="0.01">
+        </label>
+      </div>
+
+      <div class="control-group">
+        <label>
+          Drag Coeff (Cd)
+          <input type="number" id="drag" value="0.47" step="0.01" min="0" max="2">
+        </label>
+      </div>
+
+      <div class="control-group">
+        <label>
+          Air Density (kg/m³)
+          <input type="number" id="density" value="1.225" step="0.001" min="0">
+        </label>
+      </div>
+
+      <div class="control-group">
+        <label style="justify-content: start; gap: 10px; cursor: pointer;">
+          <input type="checkbox" id="variable-density" style="width: auto;">
+          Variable Density (Altitude)
+        </label>
+      </div>
+
+      <div class="stats-panel">
+        <div class="stat-item">
+          <span class="stat-label">Max Height</span>
+          <span id="stat-height" class="stat-value">0 m</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Distance</span>
+          <span id="stat-distance" class="stat-value">0 m</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Flight Time</span>
+          <span id="stat-time" class="stat-value">0 s</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
